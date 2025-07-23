@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+@theme {
+  --color-rbar: #1e2640;
+}

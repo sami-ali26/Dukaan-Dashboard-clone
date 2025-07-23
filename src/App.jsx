@@ -1,8 +1,11 @@
+import { RevenueCard } from "./components/RevenueCard";
+import { MainPage } from "./Pages/MainPage";
+
 function App() {
   return (
-    <>
-      <h3 className="bg-red-100 text-blue-600">Hi there</h3>
-    </>
+    <div>
+      <MainPage />
+    </div>
   );
 }
 
