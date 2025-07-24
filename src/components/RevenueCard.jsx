@@ -3,7 +3,7 @@ export const RevenueCard = ({ title, orderCount, amount }) => {
     <div className="bg-white rounded shadow-md p-5">
       <div className="text-gray-700">{title}?</div>
       <div className="flex justify-between">
-        <div className="font-semibold text-2xl"> ₹ {amount}</div>
+        <div className="text-2xl font-semibold"> ₹ {amount}</div>
         {orderCount ? (
           <div className="flex font-meduim">
             <div className="text-blue-700 underline">{orderCount} orders </div>
