@@ -1,5 +1,6 @@
 import { Buttons } from "./Buttons";
 import { DataTable } from "./DataTable";
+import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Middlebar } from "./Middlebar";
 import { Middletext } from "./Middletext";
@@ -10,10 +11,10 @@ import { PendingProcess } from "./Pending&Processed";
 import { ShortBar } from "./ShortBar";
 export const RightBar = () => {
   return (
-    <div className="col-span-2 md:col-span-10">
+    <div className="col-span-2 lg:col-span-10 xl:col-span-12 2xl:col-span-14 ml-0 lg:ml-[220px] w-full overflow-x-hidden">
       <Header />
       <Middlebar />
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 m-4 gap-2">
         <NextPayout />
         <PendingProcess
           title={"Amount Pending"}
@@ -27,6 +28,7 @@ export const RightBar = () => {
       <ShortBar />
       <Orders />
       <DataTable />
+      <Footer name={"Sami ali"} />
     </div>
   );
 };

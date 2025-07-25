@@ -99,28 +99,32 @@ export const DataTable = () => {
 function Table({ oId, status, otID, rDate, amount }) {
   if (status === "Successfull") {
     return (
-      <div className="flex justify-around p-4 rounded-sm m-2 -ml-4">
-        <div className="text-primaryb">{oId}</div>
-        <div className="flex items-center gap-2">
-          <div className="w-2 h-2 rounded-full bg-green-500"></div>
-          <div>{status}</div>
+      <div className="shadow-sm">
+        <div className="flex justify-around p-4 rounded-sm m-2 -ml-4 ">
+          <div className="text-primaryb">{oId}</div>
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 rounded-full bg-green-500"></div>
+            <div>{status}</div>
+          </div>
+          <div className="text-gray-600">{otID}</div>
+          <div className="text-gray-600">{rDate}</div>
+          <div>{amount}</div>
         </div>
-        <div className="text-gray-600">{otID}</div>
-        <div className="text-gray-600">{rDate}</div>
-        <div>{amount}</div>
       </div>
     );
   } else {
     return (
-      <div className="flex justify-around p-4 rounded-sm m-2 -ml-4">
-        <div className="text-primaryb">{oId}</div>
-        <div className="flex items-center gap-2">
-          <div className="w-2 h-2 rounded-full bg-gray-500"></div>
-          <div>{status}</div>
+      <div className="shadow-sm">
+        <div className="flex justify-around p-4 rounded-sm m-2 -ml-4">
+          <div className="text-primaryb">{oId}</div>
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 rounded-full bg-gray-500"></div>
+            <div>{status}</div>
+          </div>
+          <div className="text-gray-600">{otID}</div>
+          <div className="text-gray-600">{rDate}</div>
+          <div>{amount}</div>
         </div>
-        <div className="text-gray-600">{otID}</div>
-        <div className="text-gray-600">{rDate}</div>
-        <div>{amount}</div>
       </div>
     );
   }

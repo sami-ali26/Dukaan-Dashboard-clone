@@ -3,7 +3,7 @@ import { RightBar } from "../components/RightBar";
 
 export const MainPage = () => {
   return (
-    <div className="w-full  overflow-x-hidden grid grid-cols-2 md:grid-cols-12">
+    <div className="w-full grid grid-cols-2 lg:grid-cols-12 xl:grid-cols-14 2xl:grid-cols-16 overflow-x-hidden">
       <LeftBar />
       <RightBar />
     </div>

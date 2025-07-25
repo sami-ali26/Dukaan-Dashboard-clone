@@ -1,6 +1,6 @@
 export const UserAmount = ({ amount }) => {
   return (
-    <div className="flex gap-3 mt-8 px-3 py-2 bg-gray-700 items-center rounded-sm w-[100%] ">
+    <div className="flex gap-3 mt-6 px-2 py-2 bg-gray-700 items-center rounded-sm w-[100%] ">
       <div className="bg-gray-600 p-1 rounded-sm">
         <svg
           xmlns="http://www.w3.org/2000/svg"

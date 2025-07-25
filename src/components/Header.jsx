@@ -2,9 +2,9 @@ import { SearchBar } from "./SearchBar";
 
 export const Header = () => {
   return (
-    <div className="w-full h-fit flex flex-row items-center justify-between border-b-1 border-gray-300 px-6 py-3">
+    <div className="w-full h-fit flex flex-row items-center justify-between border-b-1 border-gray-300 px-10 py-3 ">
       <div className="flex gap-3 items-center">
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
