@@ -3,9 +3,9 @@ export const SearchBar = () => {
     <div>
       <form class="max-w-md ">
         <div class="relative">
-          <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-non">
             <svg
-              class="w-4 h-4 text-gray-500 dark:text-gray-400"
+              class="w-4 h-4 text-gray-500 dark:text-gray-400 "
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -15,7 +15,7 @@ export const SearchBar = () => {
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                stroke-width="2"
+                stroke-width="4"
                 d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
               />
             </svg>
@@ -23,8 +23,8 @@ export const SearchBar = () => {
           <input
             type="search"
             id="default-search"
-            size="40"
-            class="block px-4 py-2 ps-10 text-md text-gray-900 rounded-sm bg-gray-100"
+            size=""
+            className="w-30 sm:w-40 md:w-50 lg:w-full px-4 py-2 ps-10 text-md text-gray-900 rounded-sm bg-gray-100 "
             placeholder="Search features, tutorials..."
             required
           />

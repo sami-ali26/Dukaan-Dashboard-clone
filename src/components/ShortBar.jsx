@@ -2,7 +2,7 @@ import { OrderSearchBar } from "./OrderSearchBar";
 
 export const ShortBar = () => {
   return (
-    <div className="flex justify-between items-center px-4">
+    <div className="flex justify-between items-center px-4 m-4">
       <div>
         <OrderSearchBar />
       </div>

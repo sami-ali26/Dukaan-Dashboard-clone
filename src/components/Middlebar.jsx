@@ -1,6 +1,6 @@
 export const Middlebar = () => {
   return (
-    <div className="flex justify-between items-center p-4">
+    <div className="flex justify-between items-center p-2 m-2">
       <div className="font-medium text-xl">Overview</div>
       <button class="flex items-center gap-3 border rounded-xs px-[14px] py-[6px] bg-white text-[#4D4D4D]">
         This Month{" "}

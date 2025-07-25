@@ -3,7 +3,7 @@ import { UserAmount } from "./UserAmount.";
 
 export const LeftBar = () => {
   return (
-    <div className="bg-rbar p-4  bg-blue-900 h-svh col-span-2 ">
+    <div className="bg-rbar p-4  bg-blue-900 h-svh hidden md:col-span-2 md:visible">
       <div className="flex justify-around items-center mb-2 w-[100%]">
         <div className="w-[50px]">
           <img src="public\avatar.png" className="rounded-md " />

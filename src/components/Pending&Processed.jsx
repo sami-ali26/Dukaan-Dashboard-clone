@@ -1,6 +1,6 @@
 export const PendingProcess = ({ title, amount, order }) => {
   return (
-    <div className="p-2">
+    <div className="p-2 shadow-sm m-5 col-span-1 sm:col-span-1 h-[100px] rounded-sm p-4 lg:col-span-1">
       <div>
         <div className="text-gray-700 text-lg">{title}</div>
       </div>

@@ -4,6 +4,22 @@ export const Header = () => {
   return (
     <div className="w-full h-fit flex flex-row items-center justify-between border-b-1 border-gray-300 px-6 py-3">
       <div className="flex gap-3 items-center">
+        <div className="md:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
         <div className="text-xl font-medium">Payouts</div>
         <p>
           <svg
@@ -21,7 +37,9 @@ export const Header = () => {
             />
           </svg>{" "}
         </p>
-        <div className="text-gray-700 text-xs -ml-2">How its Works</div>
+        <div className="hidden md:block -gray-700 text-xs -ml-2">
+          How its Works
+        </div>
       </div>
       <div>
         <SearchBar />
