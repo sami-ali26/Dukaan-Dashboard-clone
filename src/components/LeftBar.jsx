@@ -1,3 +1,4 @@
+import { ClickedButton } from "./ClickedButton";
 import { SideBarBtn } from "./SideBarBtn";
 import { UserAmount } from "./UserAmount.";
 
@@ -5,10 +6,10 @@ export const LeftBar = () => {
   return (
     <div className="hidden lg:block fixed top-0 left-0 h-screen w-[220px] bg-rbar text-white z-50 p-3 lg:col-span-2 xl:col-span-2 2xl:col-span-2">
       <div className="flex justify-around items-center mb-2 w-[100%]">
-        <div className="w-[50px]">
+        <div className="w-[40px]">
           <img src="public\avatar.png" className="rounded-md " />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col -ml-6">
           <div className="text-white font-semibold">Sami</div>
           <div className="text-white underline font-thin text-sm">
             Visit Store
@@ -153,7 +154,7 @@ export const LeftBar = () => {
             </svg>
           }
         />
-        <SideBarBtn
+        <ClickedButton
           title={"Payouts"}
           svg={
             <svg
@@ -173,6 +174,7 @@ export const LeftBar = () => {
             </svg>
           }
         />
+
         <SideBarBtn
           title={"Discounts"}
           svg={
