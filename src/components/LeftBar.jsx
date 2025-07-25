@@ -7,7 +7,7 @@ export const LeftBar = () => {
     <div className="hidden lg:block fixed top-0 left-0 h-screen w-[220px] bg-rbar text-white z-50 p-3 lg:col-span-2 xl:col-span-2 2xl:col-span-2">
       <div className="flex justify-around items-center mb-2 w-[100%]">
         <div className="w-[40px]">
-          <img src="/images/avatar.png" className="rounded-md " />
+          <img src="./avatar.png" className="rounded-md " />
         </div>
         <div className="flex flex-col -ml-6">
           <div className="text-white font-semibold">Sami</div>
